@@ -1,0 +1,44 @@
+html {
+    font-size:100%;
+    box-sizing: border-box;
+}
+
+ body {
+    margin: 0;
+    background-color:#8A2BE2;
+    color: black;
+    position: relative;
+    padding-bottom: 10em;
+    min-height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 1rem 0;
+  color: black ;
+}
+
+svg path,
+svg rect {
+    fill: black;
+}
+
+.footer {
+    color: #212121 ;
+    padding: 0.8em 0 0.4em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: #1C2833;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #FDFEFE ;
+  }
+  
